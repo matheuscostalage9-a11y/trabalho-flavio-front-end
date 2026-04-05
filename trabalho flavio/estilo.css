@@ -3,6 +3,11 @@ body{
     margin: 0;
     padding: 0;
 }
+.divheader,a{
+    padding: 30px;
+
+
+}
 .divheader{
     display: flex;
    position: static;
@@ -15,7 +20,7 @@ body{
 }
 .logo{
     padding: 10px;
-    width: 200px;
+    width: 300px;
     height: 200px;
 }
 .compraelogin{
@@ -29,10 +34,6 @@ body{
     flex-direction: column;
 }
 
-
-.divheader a{
-    padding:30px;
-}
 a{
     color: black;
     
@@ -47,6 +48,8 @@ a{
     align-items: flex-start;
 }
 h1 {
+    text-decoration:        underline;
+    text-decoration-color: black;
     width: 70%;
     display: flex;
     flex-direction: row;
@@ -57,6 +60,7 @@ h1 {
     padding: 10px;
 }
 #list {
+    margin-left: 60px ;
     font-size:30px;
     flex-direction: column;
     justify-content: flex-end;
@@ -65,10 +69,11 @@ h1 {
 
 .list-image {
     border: 2px groove rgb(132, 0, 255, 0.452);
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    width: 30%;
+    width: 40%;
     height:50%;
     margin-right:50px;
     margin-top: 50px;
