@@ -27,6 +27,7 @@ body {
     align-items: center;
     padding: 20px 50px;
     max-width: 1400px;
+    max-height: 100px;
     margin: 0 auto;
 }
 
@@ -49,11 +50,10 @@ body {
 }
 
 .logo-text {
-    font-family: cursive;
     font-size: 28px;
     font-weight: 700;
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
 }
 
 .nav-links {
@@ -150,7 +150,6 @@ body {
 }
 
 .hero-title {
-    font-family: cursive;
     font-size: 56px;
     font-weight: 700;
     color: #2c3e50;
@@ -208,7 +207,7 @@ body {
 }
 
 /*  RESPONSIVO  */
-@media (max-width: 768px) {
+@media (max-width: 768px){
     .header-container {
         flex-direction: column;
         gap: 20px;
