@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+    
+    <!-- header -->
     <header class="header">
         <div class="header-container">
             <div class="logo-section">
@@ -16,8 +18,8 @@
             </div>
             <nav class="nav-links">
                 <a href="#cursos" class="nav-link">Cursos</a>
-                <a href="#contato" class="nav-link">Contato</a>
-                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#contato" class="nav-link">Sobre</a>
+                <a href="#sobre" class="nav-link">Contato</a>
             </nav>
             <div class="buttons">
                 <a href="#" class="btn-compra">Compra</a>
@@ -25,6 +27,8 @@
             </div>
         </div>
     </header>
+
+    <!-- introducao -->
     <section class="hero">
         <div class="conteudodahero">
             <h1 class="hero-title">Aprenda tecnologia do seu jeito, evolua no seu ritmo e transforme seu futuro com a TechnoTutors.</h1>
@@ -38,5 +42,74 @@
         </div>
         <img src="imagens/list.png" alt="Ilustração de aprendizado" class="hero-image">
     </section>
+
+    <!-- contato -->
+    <section class="contato" id="contato">
+        <div class="contato-container">
+            <h2 class="section-title">Fale com a gente</h2>
+            <p class="contato-subtitulo">Tem dúvidas ou quer saber mais sobre nossos cursos? Envie uma mensagem!</p>
+            <div class="contato-wrapper">
+
+                <!-- formulario de contato -->
+                <form class="contato-form">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="assunto">Assunto</label>
+                        <select id="assunto" name="assunto">
+                            <option value="">Selecione um assunto</option>
+                            <option value="cursos">Dúvidas sobre cursos</option>
+                            <option value="pagamento">Pagamento e planos</option>
+                            <option value="suporte">Suporte técnico</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-enviar">Enviar mensagem</button>
+                </form>
+
+                <!-- informacoes do contato -->
+                <div class="contato-info">
+                    <div class="info-card">
+                        <span class="info-icon">📧</span>
+                        <div>
+                            <strong>E-mail</strong>
+                            <p>contato@technotutors.com.br</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <span class="info-icon">📱</span>
+                        <div>
+                            <strong>WhatsApp</strong>
+                            <p>(32) 00000-0000</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <span class="info-icon">🕐</span>
+                        <div>
+                            <strong>Horário de atendimento</strong>
+                            <p>Seg – Sex, das 9h às 18h</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <p>© 2026 TechnoTutors. Todos os direitos reservados.</p>
+    </footer>
+
 </body>
 </html>
