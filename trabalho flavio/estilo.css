@@ -351,3 +351,100 @@ body {
     padding: 24px 20px;
     font-size: 14px;
 }
+
+/* Sobre */
+.sobre {
+    padding: 80px 50px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.sobre-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#sobre-info {
+    font-size: 22px;
+    color: #3e3e3e;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.sobre-block {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.sobre-curriculo {
+    background-color: white;
+    max-width: 400px;
+    padding: 20px 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+}
+
+.card-title {
+    font-size: 18px;
+    margin-bottom:10px;
+}
+
+/* cursos */
+.cursos{
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 80px 50px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.titulo-cursos{
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #2c3e50;
+}
+.cursos-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.curso-card{
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+.curso-card:hover{
+    transform: translateY(-10px);
+}
+.curso-card h3{
+    margin-bottom: 15px;
+    color: #667eea;
+}
+.curso-card p{
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+.curso-card button{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    background: #667eea;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    align-self: center;
+}
+.curso-card button:hover{
+    background: #5a67d8;
+}
+
+html {
+    scroll-behavior: smooth;
+}
